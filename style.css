@@ -49,11 +49,12 @@ table {
 
 /* INICIO */
 
-body {
-    display: flex;
-    align-items: center;
+
+main{
+    margin: 0 auto;
     font-family: karla;
-    margin-top: 5rem;
+    padding-top: 5rem;
+    width: 475px;
 }
 
 .cabecalho {
@@ -62,9 +63,6 @@ body {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     box-shadow: 0 0 1em gray;
-    width: 635px;
-    margin: 0 auto;
-
 }
 
 h2 {
@@ -89,17 +87,71 @@ h3{
     padding-bottom: 3rem;
 }
 
+.mes_why{
+    display: flex;
+
+}
+
 .mes {
     background-color: rgb(43, 179, 177);
     display: flex;
-    
+    flex-direction: column;
     margin: 0 auto;
-    width: 317,5px;
+    width: 317px;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0 0 1em gray;
 }
 
 .why_Us {
     background-color: rgb(74, 190, 189);
     display: flex;
     margin: 0 auto;
-    width: 317,5px;
+    width: 317px;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0 0 1em gray;
+}
+
+.title_Sub {
+    color: white;
+    font-size:  1.2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-weight: bold;
+}
+
+.valor_mes{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.valor{
+    color: white;
+    font-size:  2.2rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    padding-right: 0.5rem;
+
+}
+
+.month{
+    color: rgb(224, 224, 224);
+    font-style: italic;
+}
+
+
+.btn_sign{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border:50px;
+    border-color: greenyellow;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+}
+
+.text_Why {
+    color: white;
 }
